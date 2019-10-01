@@ -1,6 +1,7 @@
 ---
 layout: default
 modal-id: 1
+title: eXperDB-Management
 date: 2018-05-16
 img: management.png
 alt: image-alt
