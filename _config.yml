@@ -50,7 +50,7 @@ address:
   - line: Comtec Building
 
 # Credits content
-credits: 'We will put our best efforts on something to make better products'
+credits: 'We will put our best efforts on eXperDB to make better products'
 
 # Build settings
 markdown: kramdown
