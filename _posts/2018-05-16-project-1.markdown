@@ -6,7 +6,7 @@ img: management.png
 alt: image-alt
 project-date: May 2018
 platform: Web
-url: https://github.com/experdb/eXperDB-Management
+addr: https://github.com/experdb/eXperDB-Management
 description: eXperDB-Management is a PostgreSQL management tool(for efficient operation and management). Use backup settings and periodic scheduling to prepare for system failures, grant access to the system, and view backup and access control history. It also provides data encryption for information protection.
 
 ---
