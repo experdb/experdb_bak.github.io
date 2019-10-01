@@ -19,21 +19,21 @@
                                 <p>{{ post.description }}</p>
                             {% endif %}
                             <ul class="list-inline item-details">
-                                {% if post.platform %}
-                                    <li>Platform client:
-                                        <strong>{{ post.platform }}</a>
-                                        </strong>
-                                    </li>
-                                {% endif %}
                                 {% if post.project-date %}
                                     <li>Date:
                                         <strong>{{ post.project-date }}</a>
                                         </strong>
                                     </li>
                                 {% endif %}
-                                {% if post.category %}
-                                    <li>Service:
-                                        <strong>{{ post.category }}</a>
+                                {% if post.platform %}
+                                    <li>Platform:
+                                        <strong>{{ post.platform }}</a>
+                                        </strong>
+                                    </li>
+                                {% endif %}
+                                {% if post.url %}
+                                    <li>URL:
+                                        <strong><a href="{{ post.url }}">{{ post.url }}</a>
                                         </strong>
                                     </li>
                                 {% endif %}
